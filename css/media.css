@@ -1,0 +1,157 @@
+@media(max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    #menu-btn {
+        display: inline;
+        z-index: 1;
+    }
+    .icons {
+        margin: 0;
+    }
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        right: 0;
+        width: 80%;
+        height: 100vh;
+        background: #eee;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 90px 0;   
+    }
+    .navbar.active {
+        left: 0;
+    }
+    .nav-item {
+        margin: 25px 0;
+    }
+    .nav-link {
+        font-weight: 700;
+    }
+    .home {
+        padding: 50px;
+      }
+    .home-wrapper {
+        flex-direction: column;
+    }
+    .home-content {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .home-title {
+        font-style: 35px;
+        margin-bottom: 15px;
+        line-height: 100%;
+    }
+    .home-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .home-img img {
+        display: none;
+    }
+    .about-wrapper {
+        flex-direction: column;
+    }
+    .about-img {
+        display: none;
+    }
+    .about-content {
+        width: 100%;
+    }
+    .about-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .about-text {
+        font-size: 16px;
+    }
+    .text-1 {
+        margin-bottom: 30px;
+    }
+    .service {
+        padding: 50px;
+    }
+    .service-wrapper {
+        justify-content: center;
+    }
+    .service-box {
+        margin: 20px 5px;
+        width: 300px;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+
+    .home-title {
+        font-style: 30px;
+        margin-bottom: 20px;
+    }
+    .home-text {
+        font-size: 14px;
+    }
+    
+    .about-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .about-text {
+        font-size: 14px;
+    }
+    .service {
+        padding: 50px;
+    }
+    .service-wrapper {
+        justify-content: center;
+    }
+    .service-box {
+        margin: 20px 5px;
+        width: 300px;
+    }
+ 
+    .info-title,
+    .contact-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .contact p,
+    .info p,
+    .copywriter {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 450px) {
+    .container {
+        max-width: 100%;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .service-title {
+        font-size: 25px;
+    }
+    .service-content h5 {
+        font-size: 22px;
+    }
+    .service-content p {
+        font-size: 14px;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .info {
+        margin-bottom: 20px;
+    }
+    .contact {
+        width: 65%;
+    }
+}
